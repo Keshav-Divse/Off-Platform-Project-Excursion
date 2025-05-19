@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: Verdana, sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  font-family: Verdana;
+  font-weight: normal;
+  font-size: 50px;
+ 
+}
+.video-wrapper {
+  position: relative;
+  display: inline-block;
+}
+
+.main-video {
+  width: 300px;
+  border-radius: 10px;
+}
+.download-link{
+  position: absolute;
+  top: -30px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: aquamarine;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 8px 16px;
+  border-radius: 8px;
+  white-space: nowrap;
+}
+
+
+.main-image {
+  width: 300px;
+  margin: 20px 0;
+}
+
+h2 {
+  font-family: Verdana;
+  font-size: 42px;
+  font-weight: 300;
+  color: white;
+  margin-top: 25px;
+}
+
+p {
+  font-family: Verdana;
+  font-size: 21px;
+  color: gray;
+  white-space: nowrap;
+}
+
+.camp-image {
+  width: 100%;
+  max-width: 700px;
+  margin-bottom: 40px;
+}
+
+.phone-icon {
+  width: 40px;
+  margin: 20px auto;
+  top: -50;
+}
+
+footer h2 {
+  font-size: 42px;
+  color: white;
+  margin: 10px 0;
+}
+
+footer a.download-link {
+  margin-bottom: 20px;
+  color: aquamarine;
+  font-size: 16px;
+  text-decoration: none;
+  background-color: rgba(0, 0, 0, 0.6);
+  white-space: nowrap;  
+  transform: translateX(-50%);
+
+}
+
+footer p {
+  font-size: 16px;
+  color: gray;
+  text-align: right;
+  margin: 20px 0 0;
+}
